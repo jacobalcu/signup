@@ -1,0 +1,25 @@
+:root {
+  --color: #e6007e;
+  --txt: rgb(185, 185, 185);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: var(--txt);
+}
+
+.content {
+  width: 100vw;
+  height: 100vh;
+}
+
+.body {
+  display: flex;
+}
+
+img {
+  width: 50%;
+}
