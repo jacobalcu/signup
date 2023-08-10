@@ -14,12 +14,58 @@
 .content {
   width: 100vw;
   height: 100vh;
-}
-
-.body {
   display: flex;
+
+  flex-flow: row wrap;
 }
 
-img {
-  width: 50%;
+/* left side */
+
+.picture {
+  background-image: url(./background.jpg);
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 40vw;
+}
+
+/* right side */
+.rightside {
+  width: 60vw;
+  background-color: antiquewhite;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+}
+
+.dummy {
+  margin: 0 3vw 0 3vw;
+  font-weight: 500;
+  width: 90%;
+  font-size: 1.1rem;
+}
+
+form {
+  border-radius: 8px;
+  margin: 0 3vw 0 3vw;
+  padding: 10px;
+  width: 90%;
+  background-color: rgb(224, 213, 198);
+  box-shadow: 0px 10px 30px -5px rgb(22, 22, 22);
+  display: flex;
+  gap: 10px;
+  flex-flow: row wrap;
+}
+
+form div {
+  display: flex;
+  flex-flow: column wrap;
+  width: 40%;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  flex: auto;
+}
+
+input {
+  width: 160px;
 }
